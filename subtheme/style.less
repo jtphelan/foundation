@@ -1,0 +1,113 @@
+// LESS styles
+//Variable
+@primary: #e26c2c;
+@second: #1da3da;
+@third: #da2243;
+@gray: #555;
+@light-gray: #969696;
+
+// Mixins
+.mp(@m:0;@p: 0) { margin: @m; padding: @p; }
+.round-top(@pixels: 3px) { -moz-border-radius-topleft:@pixels; -webkit-border-top-left-radius:@pixels; -moz-border-radius-topright:@pixels; -webkit-border-top-right-radius:@pixels; border-top-left-radius: @pixels; border-top-right-radius: @pixels;}
+.round-bot(@pixels: 3px) { -moz-border-radius-bottomleft:@pixels; -webkit-border-bottom-left-radius:@pixels; -moz-border-radius-bottomright:@pixels; -webkit-border-bottom-right-radius:@pixels; border-bottom-left-radius: @pixels; border-bottom-right-radius: @pixels; }
+.round(@pixels: 3px) {-webkit-border-radius: @pixels; -moz-border-radius: @pixels; border-radius: @pixels;}
+.bshadow(@x: 0; @y:0; @s: 5px; @c: #484848 ) { -moz-box-shadow: @x @y @s @c; -webkit-box-shadow: @x @y @s @c; box-shadow: @x @y @s @c;}
+
+body { color: @gray; font: 16px/22px "aaux-next", Helvetica, Arial, sans-serif; font-weight: 500; background:url(images/background.jpg) 50% 60px no-repeat;}
+a, a:visited {color:@primary; font-weight: 700; }
+a:hover {color:@second; }
+
+.form-text, textarea { border: 1px solid #99938d; color: @gray; }
+.form-text:focus, textarea:focus {  }
+.form-submit, a.form-submit, a.button, a.button:visited { cursor:pointer; display:inline-block; text-decoration: none; text-align: center; text-decoration:none; background:@primary; padding: 10px 30px; font-weight: bold; text-transform: uppercase; .round(2px); border: 0; color: #fff; margin-bottom: 5px; }
+.form-submit:hover, a.form-submit:hover, a.button:hover { text-decoration: none; background:@second; color: #fff; }
+.compact-form-label { top: 15px; left: 10px;} 
+
+h1.title { color: @third; }
+h2 { color: @second; }
+
+/* Primary Nav */
+.navigation { background: #fff; }
+.sf-menu {margin: 0; padding: 0; 
+   ul { padding-left: 0 }
+   a { padding:0 1em; text-decoration: none; font-weight: 300; }
+   a.sf-with-ul { padding-right: 2.25em }
+  .rtl a.sf-with-ul { padding-left: 2.25em; padding-right: 1em; }
+  a.sf-depth-1 { text-decoration: none; color: @gray; text-transform: uppercase; height: 60px; line-height: 60px; }
+    li li { background: @primary; }
+    li:hover > ul, li.sfHover > ul { top:60px;  }
+    li ul { background-color: @primary; 
+     a, a:visited { padding: 10px; color: #fff;  }
+     a:hover {background:#d56122; text-decoration: none; }
+    }
+}
+
+.flexslider { border: none; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; -webkit-box-shadow: 0 0 0 rgba(0,0,0,.2); -moz-box-shadow: 0 0 0 rgba(0,0,0,.2); -o-box-shadow: 0 0 0 0 rgba(0,0,0,.2); box-shadow: 0 0 0 0 rgba(0,0,0,.2);}
+.front-slides { margin:0 auto 30px auto; text-align: center;
+  img { margin: 0 auto; }
+ }
+
+.mean-container {
+  .mean-bar { background: @primary; min-height: 5px; color: #fff; position: absolute; }
+  .mean-nav { background: @primary; margin: 0; padding-top: 40px; 
+    ul li {
+      a.mean-expand { height: 22px; }
+      a.mean-expand:hover {background: rgba(255,255,255,.1); }
+    }
+  }
+  a.meanmenu-reveal { width: 100px; font-size: 18px; text-indent: 0; top:0; position: absolute;
+    span { width:22px;}
+    .mean-sec { float:right; margin-left: 10px; height:22px; display:block;}
+  }
+  .mean-push { height: 48px; }
+}
+
+.view-faqs {
+  ol { padding-left: 20px;
+    li { padding: 5px 0; }
+  }
+  div.views-row { padding: 30px 0; border-bottom: 1px solid #ddd; }
+  .views-field-nothing { text-align: right; 
+    a { font-size: 12px; }
+  }
+  .views-exposed-form .views-exposed-widget { float: none; }
+}
+
+/* Tab navigation */
+ul.primary { border-bottom:1px solid @primary; }
+ul.primary li a { margin-right:2px; padding:0 20px; }
+ul.primary li.active a, ul.primary li.active a:hover { border:1px solid @primary; border-bottom-color:#f2eee5; background-color:transparent; color: @primary; }
+ul.primary li a:hover { background-color:@second; border-bottom:1px solid @primary; color: #fff; }
+
+/*
+* xs / small / medium / large
+* .[small]-[4]
+* .[small]-block-grid-[4]
+* .[small]-push-[4]
+* .[small]-pull-[4]
+* .[small]-offset-[4]
+*/
+
+/* ===== == = === 20em (320px) XS === = == ===== */
+@media only screen and (min-width : 20em) {
+}
+
+/* ===== == = === 30em (480px) XS === = == ===== */
+@media only screen and (min-width : 30em) {
+
+}
+
+/* ===== == = === 48em (768px) Small === = == ===== */
+@media only screen and (min-width : 48em) {
+
+}
+
+/* ===== == = === 62em (992px) Medium === = == ===== */
+@media only screen and (min-width : 62em) {
+
+}
+
+/* ===== == = === 75em (1200px) Large === = == ===== */
+@media only screen and (min-width : 75em) {
+
+}

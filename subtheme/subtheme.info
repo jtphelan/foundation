@@ -1,0 +1,21 @@
+name = SubTheme
+description = Responsive sub-theme based on Bootstrap
+version = 1.0
+core = 7.x
+base theme = foundation
+
+stylesheets[all][] = style.less
+; scripts[] = js/sub-common.js
+
+; Drupal Regions
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+; Theme Regions
+regions[header] = Header
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer] = Footer
