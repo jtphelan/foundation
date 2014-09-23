@@ -1,6 +1,6 @@
 name = BMG Responsive
 description = Responsive Master theme based on Foundation
-version = 1.0
+version = 2.0
 core = 7.x
 
 stylesheets[all][] = css/normalize.css

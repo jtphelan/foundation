@@ -1,5 +1,5 @@
 name = SubTheme
-description = Responsive sub-theme based on Bootstrap
+description = Responsive sub-theme based on Foundation
 version = 1.0
 core = 7.x
 base theme = foundation
