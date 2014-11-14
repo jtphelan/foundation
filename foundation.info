@@ -6,7 +6,9 @@ core = 7.x
 stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/foundation.css
 ;stylesheets[all][] = css/icons.css
+;stylesheets[all][] = css/responsive-tables.css
 scripts[] = js/jquery.fitvids.js
+;scripts[] = js/responsive-tables.js
 scripts[] = js/common.js
 
 ; Drupal Regions
