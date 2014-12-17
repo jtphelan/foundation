@@ -1,5 +1,5 @@
 (function ($) {
   $( document ).ready(function() {
-    $(".container").fitVids();
+    $(".container").fitVids({ ignore: '.fitvid-ignore'});
   });
 }(jQuery));
