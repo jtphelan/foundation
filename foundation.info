@@ -1,11 +1,10 @@
 name = BMG Responsive
 description = Responsive Master theme based on Foundation
-version = 2.0
+version = 1.0
 core = 7.x
 
 stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/foundation.css
-;stylesheets[all][] = css/icons.css
 ;stylesheets[all][] = css/responsive-tables.css
 scripts[] = js/jquery.fitvids.js
 ;scripts[] = js/responsive-tables.js
