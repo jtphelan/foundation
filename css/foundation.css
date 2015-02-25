@@ -2221,9 +2221,7 @@ input[type="radio"] + label {
   margin-bottom: 0;
   vertical-align: baseline; }
 
-/* Normalize file input width */
-input[type="file"] {
-  width: 100%; }
+.form-managed-file .form-submit { padding: 5px 10px; }
 
 /* We add basic fieldset styling */
 fieldset {
@@ -2833,6 +2831,9 @@ select[multiple].input-lg {
   margin-top: 5px;
   margin-bottom: 10px;
   color: #737373;
+}
+.form-type-checkbox .description {
+  margin-left: 0.5rem;
 }
 .btn, .form-submit {
   display: inline-block;
