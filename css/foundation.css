@@ -1974,8 +1974,6 @@ form .row textarea.columns {
 /* Label Styles */
 label {
   font-size: 0.875rem;
-  color: #4d4d4d;
-  cursor: pointer;
   display: block;
   font-weight: normal;
   line-height: 1.5;
@@ -2861,7 +2859,6 @@ select[multiple].input-lg {
   outline-offset: -2px;
 }
 .btn:hover, .form-submit:hover {
-  color: #333333;
   text-decoration: none;
 }
 
@@ -2989,17 +2986,17 @@ ul.primary li a:hover { background-color:#eee; border-bottom:1px solid #ddd;}
 
 /* ===== == = === 30em (480px) === = == ===== */
 @media only screen and (min-width : 30em) {
-  .container { max-width:none; }
+
 }
 
 /* ===== == = === 48em (768px) === = == ===== */
 @media only screen and (min-width : 48em) {
-  .container { max-width:45.5em; margin: 0 auto;}
+  .container { max-width:none; }
 }
 
 /* ===== == = === 68.75em (992px) === = == ===== */
 @media only screen and (min-width : 62em) {
-  .container { max-width:58.75em; }
+  .container { max-width:58.75em; margin: 0 auto;}
 }
 
 /* ===== == = === 81.25em (1200px) === = == ===== */
