@@ -382,7 +382,7 @@ select {
   .columns.xs-uncentered.opposite {
     float: right; } }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 30em) {
   .small-push-0 {
     position: relative;
     left: 0%;
@@ -613,7 +613,7 @@ select {
   .columns.small-uncentered.opposite {
     float: right; } }
     
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 48em) {
   .medium-push-0 {
     position: relative;
     left: 0%;
@@ -964,7 +964,7 @@ select {
     right: 91.66667%;
     left: auto; } }
     
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 62em) {
   .large-push-0 {
     position: relative;
     left: 0%;
@@ -1314,6 +1314,358 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+  
+  @media only screen and (min-width: 75em) {
+  .xlarge-push-0 {
+    position: relative;
+    left: 0%;
+    right: auto; }
+
+  .xlarge-pull-0 {
+    position: relative;
+    right: 0%;
+    left: auto; }
+
+  .xlarge-push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  .xlarge-pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  .xlarge-push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  .xlarge-pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  .xlarge-push-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  .xlarge-pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  .xlarge-push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  .xlarge-pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  .xlarge-push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  .xlarge-pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  .xlarge-push-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  .xlarge-pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  .xlarge-push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  .xlarge-pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  .xlarge-push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  .xlarge-pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  .xlarge-push-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  .xlarge-pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  .xlarge-push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  .xlarge-pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  .xlarge-push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
+
+  .xlarge-pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; }
+
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left; }
+
+  .xlarge-1 {
+    width: 8.33333%; }
+
+  .xlarge-2 {
+    width: 16.66667%; }
+
+  .xlarge-3 {
+    width: 25%; }
+
+  .xlarge-4 {
+    width: 33.33333%; }
+
+  .xlarge-5 {
+    width: 41.66667%; }
+
+  .xlarge-6 {
+    width: 50%; }
+
+  .xlarge-7 {
+    width: 58.33333%; }
+
+  .xlarge-8 {
+    width: 66.66667%; }
+
+  .xlarge-9 {
+    width: 75%; }
+
+  .xlarge-10 {
+    width: 83.33333%; }
+
+  .xlarge-11 {
+    width: 91.66667%; }
+
+  .xlarge-12 {
+    width: 100%; }
+
+  .xlarge-offset-0 {
+    margin-left: 0% !important; }
+
+  .xlarge-offset-1 {
+    margin-left: 8.33333% !important; }
+
+  .xlarge-offset-2 {
+    margin-left: 16.66667% !important; }
+
+  .xlarge-offset-3 {
+    margin-left: 25% !important; }
+
+  .xlarge-offset-4 {
+    margin-left: 33.33333% !important; }
+
+  .xlarge-offset-5 {
+    margin-left: 41.66667% !important; }
+
+  .xlarge-offset-6 {
+    margin-left: 50% !important; }
+
+  .xlarge-offset-7 {
+    margin-left: 58.33333% !important; }
+
+  .xlarge-offset-8 {
+    margin-left: 66.66667% !important; }
+
+  .xlarge-offset-9 {
+    margin-left: 75% !important; }
+
+  .xlarge-offset-10 {
+    margin-left: 83.33333% !important; }
+
+  .xlarge-offset-11 {
+    margin-left: 91.66667% !important; }
+
+  .xlarge-reset-order {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    float: left; }
+
+  .column.xlarge-centered,
+  .columns.xlarge-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; }
+
+  .column.xlarge-uncentered,
+  .columns.xlarge-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left; }
+
+  .column.xlarge-centered:last-child,
+  .columns.xlarge-centered:last-child {
+    float: none; }
+
+  .column.xlarge-uncentered:last-child,
+  .columns.xlarge-uncentered:last-child {
+    float: left; }
+
+  .column.xlarge-uncentered.opposite,
+  .columns.xlarge-uncentered.opposite {
+    float: right; }
+
+  .push-0 {
+    position: relative;
+    left: 0%;
+    right: auto; }
+
+  .pull-0 {
+    position: relative;
+    right: 0%;
+    left: auto; }
+
+  .push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto; }
+
+  .pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto; }
+
+  .push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto; }
+
+  .pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto; }
+
+  .push-3 {
+    position: relative;
+    left: 25%;
+    right: auto; }
+
+  .pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto; }
+
+  .push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto; }
+
+  .pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto; }
+
+  .push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto; }
+
+  .pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto; }
+
+  .push-6 {
+    position: relative;
+    left: 50%;
+    right: auto; }
+
+  .pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto; }
+
+  .push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto; }
+
+  .pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto; }
+
+  .push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto; }
+
+  .pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto; }
+
+  .push-9 {
+    position: relative;
+    left: 75%;
+    right: auto; }
+
+  .pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto; }
+
+  .push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
+
+  .pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto; }
+
+  .push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
+
+  .pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto; } }
+
 .inline-list {
   margin: 0 auto 1.0625rem auto;
   margin-left: -1.375rem;
@@ -1827,22 +2179,7 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #2ba6cb;
-  border-color: #2285a2;
-  color: white;
   transition: background-color 300ms ease-out; }
-  button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2285a2; }
-  button:hover, button:focus, .button:hover, .button:focus {
-    color: white; }
-  button.secondary, .button.secondary {
-    background-color: #e9e9e9;
-    border-color: #bababa;
-    color: #333333; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #bababa; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      color: #333333; }
   button.success, .button.success {
     background-color: #5da423;
     border-color: #4a831c;
@@ -1974,6 +2311,8 @@ form .row textarea.columns {
 /* Label Styles */
 label {
   font-size: 0.875rem;
+  color: #4d4d4d;
+  cursor: pointer;
   display: block;
   font-weight: normal;
   line-height: 1.5;
@@ -2345,7 +2684,7 @@ fieldset {
     .xs-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 30em) {
   .small-block-grid-1 > li {
     width: 100%;
     list-style: none; }
@@ -2441,7 +2780,7 @@ fieldset {
       clear: none; }
     .small-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 48em) {
   .medium-block-grid-1 > li {
     width: 100%;
     list-style: none; }
@@ -2537,7 +2876,7 @@ fieldset {
       clear: none; }
     .medium-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 62em) {
   .large-block-grid-1 > li {
     width: 100%;
     list-style: none; }
@@ -2635,6 +2974,105 @@ fieldset {
       clear: both; }       
 }
 
+@media only screen and (min-width: 75em) {
+  .xlarge-block-grid-1 > li {
+    width: 100%;
+    list-style: none; }
+    .xlarge-block-grid-1 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-1 > li:nth-of-type(1n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-2 > li {
+    width: 50%;
+    list-style: none; }
+    .xlarge-block-grid-2 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-2 > li:nth-of-type(2n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-3 > li {
+    width: 33.33333%;
+    list-style: none; }
+    .xlarge-block-grid-3 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-3 > li:nth-of-type(3n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-4 > li {
+    width: 25%;
+    list-style: none; }
+    .xlarge-block-grid-4 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-4 > li:nth-of-type(4n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-5 > li {
+    width: 20%;
+    list-style: none; }
+    .xlarge-block-grid-5 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-5 > li:nth-of-type(5n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-6 > li {
+    width: 16.66667%;
+    list-style: none; }
+    .xlarge-block-grid-6 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-6 > li:nth-of-type(6n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-7 > li {
+    width: 14.28571%;
+    list-style: none; }
+    .xlarge-block-grid-7 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-7 > li:nth-of-type(7n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-8 > li {
+    width: 12.5%;
+    list-style: none; }
+    .xlarge-block-grid-8 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-8 > li:nth-of-type(8n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-9 > li {
+    width: 11.11111%;
+    list-style: none; }
+    .xlarge-block-grid-9 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-9 > li:nth-of-type(9n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-10 > li {
+    width: 10%;
+    list-style: none; }
+    .xlarge-block-grid-10 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-10 > li:nth-of-type(10n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-11 > li {
+    width: 9.09091%;
+    list-style: none; }
+    .xlarge-block-grid-11 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-11 > li:nth-of-type(11n+1) {
+      clear: both; }
+
+  .xlarge-block-grid-12 > li {
+    width: 8.33333%;
+    list-style: none; }
+    .xlarge-block-grid-12 > li:nth-of-type(1n) {
+      clear: none; }
+    .xlarge-block-grid-12 > li:nth-of-type(12n+1) {
+      clear: both; }       
+}
+
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -2706,10 +3144,8 @@ output {
   font-size: 14px;
   line-height: 1.428571429;
   width:100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box;
-  border-radius: 4px;
 }
 .form-text:focus, textarea:focus, select:focus {
-  border-color: #66afe9;
   outline: 0;
   outline-width:0;
 }
@@ -2846,7 +3282,6 @@ select[multiple].input-lg {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  border-radius: 4px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2866,7 +3301,6 @@ select[multiple].input-lg {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -2877,9 +3311,7 @@ select[multiple].input-lg {
   padding: 0 5px;
   color: #cccccc;
 }
-.breadcrumb > .active {
-  color: #999999;
-}
+
 .pager {
   display: inline-block;
   padding-left: 0;
@@ -2897,7 +3329,6 @@ select[multiple].input-lg {
   padding: 6px 12px;
   line-height: 1.428571429;
   text-decoration: none;
-  color: #428bca;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -2919,7 +3350,6 @@ select[multiple].input-lg {
 .pager > li > span:hover,
 .pager > li > a:focus,
 .pager > li > span:focus {
-  color: #2a6496;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -2931,8 +3361,6 @@ select[multiple].input-lg {
 .pager > .active > span:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
   cursor: default;
 }
 
@@ -2986,7 +3414,7 @@ ul.primary li a:hover { background-color:#eee; border-bottom:1px solid #ddd;}
 
 /* ===== == = === 30em (480px) === = == ===== */
 @media only screen and (min-width : 30em) {
-
+  .container {  }
 }
 
 /* ===== == = === 48em (768px) === = == ===== */
@@ -2996,7 +3424,7 @@ ul.primary li a:hover { background-color:#eee; border-bottom:1px solid #ddd;}
 
 /* ===== == = === 68.75em (992px) === = == ===== */
 @media only screen and (min-width : 62em) {
-  .container { max-width:58.75em; margin: 0 auto;}
+  .container { max-width:58.75em; margin: 0 auto; }
 }
 
 /* ===== == = === 81.25em (1200px) === = == ===== */
