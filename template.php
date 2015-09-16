@@ -33,8 +33,6 @@ function foundation_css_alter(&$css) {
 }
 
 function foundation_preprocess_html(&$variables) {
-  $variables['meta_tags'] = variable_get('bmg_site_meta_tags', '');
-  $variables['meta_description'] = variable_get('bmg_site_meta_description', '');
   
   // Font Awesome
   drupal_add_css('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', array('type' => 'external'));
