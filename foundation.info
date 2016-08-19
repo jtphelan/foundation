@@ -5,6 +5,7 @@ core = 7.x
 
 stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/foundation.css
+stylesheets[all][] = paragraphs/paragraphs.less
 scripts[] = js/jquery.fitvids.js
 scripts[] = js/common.js
 
