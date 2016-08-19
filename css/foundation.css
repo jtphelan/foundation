@@ -1977,17 +1977,14 @@ abbr {
 /* Blockquotes */
 blockquote {
   margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #dddddd; }
+  padding: 0.5625rem 1.25rem 0 1.1875rem; }
   blockquote cite {
     display: block;
-    font-size: 0.8125rem;
-    color: #555555; }
+    font-size: 0.8125rem; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
-    blockquote cite a:visited {
-      color: #555555; }
+    blockquote cite a:visited { }
 
 blockquote,
 blockquote p {
@@ -2119,12 +2116,9 @@ blockquote p {
     color: #333333; }
 
 table {
-  background: white;
-  margin-bottom: 1.25rem;
-  border: solid 1px #dddddd; }
+  margin-bottom: 1.25rem; }
   table caption {
     background: transparent;
-    color: #222222;
     font-size: 1rem;
     font-weight: bold; }
   table thead {
@@ -2132,25 +2126,19 @@ table {
     table thead tr th,
     table thead tr td {
       padding: 0.5rem 0.625rem 0.625rem;
-      font-size: 0.875rem;
-      font-weight: bold;
-      color: #222222; }
+      font-size: 0.875rem; }
   table tfoot {
     background: whitesmoke; }
     table tfoot tr th,
     table tfoot tr td {
       padding: 0.5rem 0.625rem 0.625rem;
-      font-size: 0.875rem;
-      font-weight: bold;
-      color: #222222; }
+      font-size: 0.875rem; }
   table tr th,
   table tr td {
     padding: 0.5625rem 0.625rem;
     font-size: 0.875rem;
-    color: #222222;
     text-align: left; }
-  table tr.even, table tr.alt, table tr:nth-of-type(even) {
-    background: #f9f9f9; }
+  table tr.even, table tr.alt, table tr:nth-of-type(even) { }
   table thead tr th,
   table tfoot tr th,
   table tfoot tr td,
@@ -2311,8 +2299,6 @@ form .row textarea.columns {
 /* Label Styles */
 label {
   font-size: 0.875rem;
-  color: #4d4d4d;
-  cursor: pointer;
   display: block;
   font-weight: normal;
   line-height: 1.5;
@@ -2424,10 +2410,7 @@ input[type="time"],
 input[type="url"],
 textarea {
   -webkit-appearance: none;
-  background-color: white;
   font-family: inherit;
-  border: 1px solid #cccccc;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
   font-size: 0.875rem;
@@ -2437,8 +2420,7 @@ textarea {
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
+  box-sizing: border-box;}
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
@@ -2452,26 +2434,7 @@ textarea {
   input[type="tel"]:focus,
   input[type="time"]:focus,
   input[type="url"]:focus,
-  textarea:focus {
-    box-shadow: 0 0 5px #999999;
-    border-color: #999999; }
-  input[type="text"]:focus,
-  input[type="password"]:focus,
-  input[type="date"]:focus,
-  input[type="datetime"]:focus,
-  input[type="datetime-local"]:focus,
-  input[type="month"]:focus,
-  input[type="week"]:focus,
-  input[type="email"]:focus,
-  input[type="number"]:focus,
-  input[type="search"]:focus,
-  input[type="tel"]:focus,
-  input[type="time"]:focus,
-  input[type="url"]:focus,
-  textarea:focus {
-    background: #fafafa;
-    border-color: #999999;
-    outline: none; }
+  textarea:focus {outline: none; }
   input[type="text"][disabled], fieldset[disabled] input[type="text"],
   input[type="password"][disabled], fieldset[disabled]
   input[type="password"],
@@ -3309,7 +3272,6 @@ select[multiple].input-lg {
 .breadcrumb > li + li:before {
   content: "/\00a0";
   padding: 0 5px;
-  color: #cccccc;
 }
 
 .pager {
@@ -3323,6 +3285,7 @@ select[multiple].input-lg {
 }
 .pager > li > a,
 .pager > li.pager-current,
+.pager > li.pager-ellipsis,
 .pager > li > span {
   position: relative;
   float: left;
@@ -3335,6 +3298,7 @@ select[multiple].input-lg {
 }
 .pager > li:first-child > a,
 .pager > li.pager-current:first-child,
+.pager > li.pager-ellipsis:first-child,
 .pager > li:first-child > span {
   margin-left: 0;
   border-bottom-left-radius: 4px;
@@ -3342,6 +3306,7 @@ select[multiple].input-lg {
 }
 .pager > li:last-child > a,
 .pager > li.pager-current:last-child,
+.pager > li.pager-ellipsis:last-child,
 .pager > li:last-child > span {
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
@@ -3431,3 +3396,15 @@ ul.primary li a:hover { background-color:#eee; border-bottom:1px solid #ddd;}
 @media only screen and (min-width : 75em) {
   .container { max-width:73.75em; }
 }
+
+/* ===== == = === 90em (1440px) === = == ===== */
+@media only screen and (min-width : 90em) {
+  .container { max-width:88.75em; }
+}
+
+/* ===== == = === 120em (1920px) === = == ===== */
+/* Uncomment for very large breakpoint
+@media only screen and (min-width : 120em) {
+  .container { max-width:118.75em; }
+}
+*/
