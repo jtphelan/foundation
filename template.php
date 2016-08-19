@@ -35,5 +35,5 @@ function foundation_css_alter(&$css) {
 function foundation_preprocess_html(&$variables) {
   
   // Font Awesome
-  drupal_add_css('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', array('type' => 'external'));
+  drupal_add_css('//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css', array('type' => 'external'));
 }
